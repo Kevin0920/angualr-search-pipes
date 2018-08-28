@@ -5,15 +5,15 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FilterPipe implements PipeTransform {
 
-  transform(value: any, args?: any): any {
+  transform(allInfos: any, searchItem?: any): any {
     // check if search term is undefined
-    if (!args) {
-      return value;
+    if (!searchItem) {
+      return allInfos;
     }
     else {
       // return search filter out array 
-      return value.filter(items => {
-        return items.name.toLowerCase().includes(args.toLowerCase());
+      return allInfos.filter(items => {
+        return items.name.toLowerCase().includes(searchItem.toLowerCase());
       }) 
     }
   }
