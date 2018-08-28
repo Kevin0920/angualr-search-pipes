@@ -1,0 +1,26 @@
+<div id="searchBar" class="container">
+  <div class="search-bar">
+    <input type="text" class="search-input" placeholder="Search File Name..."
+     [(ngModel)] = "filterText" />
+  </div>
+</div>
+
+<div class="container" *ngIf="(dataList | filter: filterText) ?.length == 0">
+  <div class="row">
+    <p>No Result Found<br>Please check spelling or try different keywards</p>
+  </div>
+</div>
+
+<div id="container" class="row">
+  <div class="col-md-4 col-sm-12"
+   *ngFor="let abc of dataList | filter: filterText; let i = index">
+    <div class="thumbnail">
+      <img [src]='abc.image' alt="{{ abc.name }} image" *ngIf="abc.image">
+      <div class="caption">
+        <p class="panel-footer">
+          {{ abc.name }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

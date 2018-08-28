@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Kevin",
+        "age": "21",
+        "embed": "1hyjLD7pk10",
+        "image": "assets/images/1.jpg",
+        "featured": true
+    },
+    {
+        "name": "Lisa",
+        "age": "55",
+        "embed": "1hyjLD7pk10",
+        "image": "assets/images/2.jpg",
+        "featured": true
+    },
+    {
+        "name": "Chen",
+        "age": "58",
+        "embed": "1hyjLD7pk10",
+        "image": "assets/images/3.jpg",
+        "featured": true
+    },
+    {
+        "name": "Jin",
+        "age": "21",
+        "embed": "1hyjLD7pk10",
+        "image": "assets/images/4.jpg",
+        "featured": true
+    },
+    {
+        "name": "David",
+        "age": "29",
+        "embed": "1hyjLD7pk10",
+        "image": "assets/images/5.jpg",
+        "featured": true
+    },
+    {
+        "name": "Lee",
+        "age": "22",
+        "embed": "1hyjLD7pk10",
+        "image": "assets/images/6.jpg",
+        "featured": true
+    },
+    {
+        "name": "Mark",
+        "age": "48",
+        "embed": "1hyjLD7pk10",
+        "image": "assets/images/7.jpg",
+        "featured": true
+    },
+    {
+        "name": "James",
+        "age": "53",
+        "embed": "1hyjLD7pk10",
+        "image": "assets/images/8.jpg",
+        "featured": true
+    } 
+]
